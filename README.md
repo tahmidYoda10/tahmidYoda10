@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/tahmidYoda10">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3DDC84&center=true&vCenter=true&width=600&lines=Hi+Everyone,+This+is+Tahmid;Founder+%40+Bridge+Byte+Tech;Building+Scalable+Backend+Systems;Let's+Introduce+Something+New" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3DDC84&center=true&vCenter=true&width=600&lines=Hi+Everyone,+This+is+Tahmid;Founder+%40+Bridge+Byte+Tech;Engineering+The+Future;Let's+Introduce+Something+New" alt="Typing SVG" />
 </a>
 
 <p align="center">
