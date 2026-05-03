@@ -38,41 +38,23 @@
 
 <br>
 
+---
+
+<br>
+
 ### 🧩 Core Expertise
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <b>💻 Backend Engineering</b><br><br>
-      <img src="https://img.shields.io/badge/-Java-2b2b2b?style=flat-square&logo=openjdk&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-Spring_Boot-2b2b2b?style=flat-square&logo=spring-boot&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-REST_APIs-2b2b2b?style=flat-square&logo=json&logoColor=white" /><br><br>
-      <i>System Design · Microservices · Clean Architecture</i>
-    </td>
-    <td width="50%" valign="top">
-      <b>📱 Mobile Development</b><br><br>
-      <img src="https://img.shields.io/badge/-Kotlin-2b2b2b?style=flat-square&logo=kotlin&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-Android-2b2b2b?style=flat-square&logo=android&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-Flutter-2b2b2b?style=flat-square&logo=flutter&logoColor=white" /><br><br>
-      <i>Offline-First Design · Performance Optimization</i>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>🗄️ Data & Caching</b><br><br>
-      <img src="https://img.shields.io/badge/-PostgreSQL-2b2b2b?style=flat-square&logo=postgresql&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-Redis-2b2b2b?style=flat-square&logo=redis&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-MongoDB-2b2b2b?style=flat-square&logo=mongodb&logoColor=white" /><br><br>
-      <i>Normalization · Indexing · Query Optimization</i>
-    </td>
-    <td width="50%" valign="top">
-      <b>⚙️ Engineering Practices</b><br><br>
-      <img src="https://img.shields.io/badge/-Clean_Code-2b2b2b?style=flat-square&logo=sonarqube&logoColor=white" /> 
-      <img src="https://img.shields.io/badge/-Testing-2b2b2b?style=flat-square&logo=jest&logoColor=white" /><br><br>
-      <i>Unit & Integration Testing · Code Reviews · Docs</i>
-    </td>
-  </tr>
-</table>
+> **💻 Backend Engineering** > <img src="https://img.shields.io/badge/-Java-2b2b2b?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/-Spring_Boot-2b2b2b?style=flat-square&logo=spring-boot&logoColor=white" /> <img src="https://img.shields.io/badge/-REST_APIs-2b2b2b?style=flat-square&logo=json&logoColor=white" />  
+> *System Design · Microservices · Clean Architecture*
+
+> **📱 Mobile Development** > <img src="https://img.shields.io/badge/-Kotlin-2b2b2b?style=flat-square&logo=kotlin&logoColor=white" /> <img src="https://img.shields.io/badge/-Android-2b2b2b?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/-Flutter-2b2b2b?style=flat-square&logo=flutter&logoColor=white" />  
+> *Offline-First Design · Performance Optimization*
+
+> **🗄️ Data & Caching** > <img src="https://img.shields.io/badge/-PostgreSQL-2b2b2b?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/-Redis-2b2b2b?style=flat-square&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/-MongoDB-2b2b2b?style=flat-square&logo=mongodb&logoColor=white" />  
+> *Normalization · Indexing · Query Optimization*
+
+> **⚙️ Engineering Practices** > <img src="https://img.shields.io/badge/-Clean_Code-2b2b2b?style=flat-square&logo=sonarqube&logoColor=white" /> <img src="https://img.shields.io/badge/-Testing-2b2b2b?style=flat-square&logo=jest&logoColor=white" />  
+> *Unit & Integration Testing · Code Reviews · Docs*
 
 <br>
 
@@ -82,40 +64,17 @@
 
 ### 🚀 Projects Dashboard
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://hadiarchive.com/">Hadi Archive</a></h3>
-      <img src="https://img.shields.io/badge/Status-Live-3DDC84?style=flat-square&logoColor=white" />
-      <br><br>
-      <p>In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi. Structured & scalable.</p>
-      <code>Spring Boot</code> <code>PostgreSQL</code> <code>Clean Architecture</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://resezy.com/">Resezy</a></h3>
-      <img src="https://img.shields.io/badge/Status-Live-3DDC84?style=flat-square&logoColor=white" />
-      <br><br>
-      <p>Seamless experience platform, designed and deployed end-to-end with a focus on usability.</p>
-      <code>Flutter</code> <code>REST API</code> <code>JWT</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia">Sylhet Pedia</a></h3>
-      <img src="https://img.shields.io/badge/Status-Play_Store-414141?style=flat-square&logo=google-play&logoColor=white" />
-      <br><br>
-      <p>Regional knowledge app for Sylhet — offline-ready, fast, and highly user-friendly.</p>
-      <code>Kotlin</code> <code>Android</code> <code>SQLite</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://pussho.com/">Pussho</a></h3>
-      <img src="https://img.shields.io/badge/Status-In_Development-F5A623?style=flat-square&logoColor=white" />
-      <br><br>
-      <p>A new mobile product currently in active development. Stay tuned for the official release.</p>
-      <code>Mobile App</code> <code>In Progress</code>
-    </td>
-  </tr>
-</table>
+> ### [Hadi Archive](https://hadiarchive.com/) &nbsp;<img src="https://img.shields.io/badge/Status-Live-3DDC84?style=flat-square&logoColor=white" align="center" />  
+> *In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi. Structured & scalable.* > `Spring Boot` `PostgreSQL` `Clean Architecture`
+
+> ### [Resezy](https://resezy.com/) &nbsp;<img src="https://img.shields.io/badge/Status-Live-3DDC84?style=flat-square&logoColor=white" align="center" />  
+> *Seamless experience platform, designed and deployed end-to-end with a focus on usability.* > `Flutter` `REST API` `JWT`
+
+> ### [Sylhet Pedia](https://play.google.com/store/apps/details?id=com.abir.sylhetpedia) &nbsp;<img src="https://img.shields.io/badge/Status-Play_Store-414141?style=flat-square&logo=google-play&logoColor=white" align="center" />  
+> *Regional knowledge app for Sylhet — offline-ready, fast, and highly user-friendly.* > `Kotlin` `Android` `SQLite`
+
+> ### [Pussho](https://pussho.com/) &nbsp;<img src="https://img.shields.io/badge/Status-In_Development-F5A623?style=flat-square&logoColor=white" align="center" />  
+> *A new mobile product currently in active development. Stay tuned for the official release.* > `Mobile App` `In Progress`
 
 <br>
 
@@ -127,9 +86,9 @@
 <div align="center">
   <p><i>600+ problems solved across all platforms</i></p>
   <br>
-  <img src="https://img.shields.io/badge/LeetCode_Rating-1429-1A1A1A?style=for-the-badge&logo=leetcode&logoColor=FFA116" /> &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Codeforces_Rating-1153-1A1A1A?style=for-the-badge&logo=codeforces&logoColor=1F8ACB" /> &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/CodeChef_Rating-1259-1A1A1A?style=for-the-badge&logo=codechef&logoColor=5B4638" />
+  <img src="https://img.shields.io/badge/LeetCode-1429-1A1A1A?style=for-the-badge&logo=leetcode&logoColor=FFA116" /> &nbsp;
+  <img src="https://img.shields.io/badge/Codeforces-1153-1A1A1A?style=for-the-badge&logo=codeforces&logoColor=1F8ACB" /> &nbsp;
+  <img src="https://img.shields.io/badge/CodeChef-1259-1A1A1A?style=for-the-badge&logo=codechef&logoColor=5B4638" />
 </div>
 
 <br>
