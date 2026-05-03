@@ -1,86 +1,118 @@
 <div align="center">
 
 # Tahmid Al Mamun
+**Founder @ Bridge Byte Tech** | *Leading University, Dept. of CSE*
 
-**Founder @ Bridge Byte Tech** | Leading University, Dept. of CSE
+<p align="center">
+  Software engineer focused on backend systems, mobile apps, and end-to-end product development.<br>
+  Building scalable, clean-architected products — from idea to deployment.
+</p>
 
-Software engineer focused on backend systems, mobile apps, and end-to-end product development.
-Building scalable, clean-architected products — from idea to deployment.
-
-<br>
-
-[![Website](https://img.shields.io/badge/Website-Bridge_Byte_Tech-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bridgebytetech.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahmid-al-mamun-042236215/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tahmid.mamun@bridgebytetech.com)
+<p align="center">
+  <a href="https://bridgebytetech.com/">
+    <img src="https://img.shields.io/badge/Website-1A1A1A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://www.linkedin.com/in/tahmid-al-mamun-042236215/">
+    <img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" />
+  </a>
+  <a href="mailto:tahmid.mamun@bridgebytetech.com">
+    <img src="https://img.shields.io/badge/Email-1A1A1A?style=for-the-badge&logo=gmail&logoColor=D14836" alt="Email" />
+  </a>
+</p>
 
 </div>
 
----
+<br>
 
-## Executive Summary
-
-- **Backend Engineering:** Java, Spring Boot, REST APIs, System Design.
-- **Mobile Development:** Kotlin (Android), Flutter.
-- **Architecture:** Microservices, Clean Structured Monoliths, Offline-First Design.
-- **Product Development:** End-to-End lifecycle (Idea → Design → Build → Deploy).
-- **UI/UX Thinking:** User flows, Accessibility, Consistency.
-
----
-
-## Technical Arsenal
-
-### Backend & Databases
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### Mobile & Frontend
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-### Architecture & Practices
-> Microservices | Clean Architecture | Unit & Integration Testing | Code Reviews | API Design | Database Normalization
-
----
-
-## Featured Projects
-
-| Project Name | Description | Tech Stack | Status |
-| :--- | :--- | :--- | :--- |
-| **[Hadi Archive](https://hadiarchive.com/)** | Comprehensive Islamic knowledge archive — structured, scalable, and built for accessibility. | `Spring Boot` `Clean Architecture` `PostgreSQL` | Live |
-| **[Resezy](https://resezy.com/)** | Seamless user experience platform, designed and deployed end-to-end. | `Flutter` `REST API` `JWT` | Live |
-| **[Sylhet Pedia](https://play.google.com/store/apps/details?id=com.abir.sylhetpedia)** | Regional knowledge app for Sylhet — offline-ready and user-friendly. | `Kotlin` `SQLite` `Offline-first` | Play Store |
-| **[DF IT Centre](https://www.dfitcentre.com/)** | Clean, functional IT centre platform built for real users. | `Web` | Client Work |
-| **[Pussho](https://pussho.com/)** | A new product in active development. | `Mobile` | In Dev |
-
----
-
-## Competitive Programming
-
-**600+ problems solved across platforms**
-
-| Platform | Current Rating | Profile Status |
-| :--- | :--- | :--- |
-| **LeetCode** | 1,429 | Active |
-| **Codeforces** | 1,153 | Active |
-| **CodeChef** | 1,259 | Active |
-
----
-
-## GitHub Analytics
-
+### ❖ Technical Arsenal
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=tahmidYoda10&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahmidYoda10&layout=compact&hide_border=true&theme=tokyonight" width="40%" />
-
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,kotlin,flutter,android,postgres,mysql,redis,mongodb&perline=9&theme=dark" alt="Tech Stack" />
+  </a>
 </div>
 
 <br>
+
+### ❖ Core Expertise
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <b>Backend Engineering</b><br>
+      Java, Spring Boot, REST APIs, System Design. Microservices & Clean Structured Monoliths.
+    </td>
+    <td width="50%" valign="top">
+      <b>Mobile Development</b><br>
+      Kotlin (Android), Flutter. Offline-First Design, User flows, and seamless experiences.
+    </td>
+  </tr>
+</table>
+
+<br>
+
+### ❖ Featured Projects
+*Dashboard overview of current and live systems.*
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://hadiarchive.com/">Hadi Archive</a> 🟢</h3>
+      <p>Comprehensive Islamic knowledge archive — structured, scalable, and built for accessibility.</p>
+      <code>Spring Boot</code> <code>PostgreSQL</code> <code>Clean Architecture</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://resezy.com/">Resezy</a> 🟢</h3>
+      <p>Seamless user experience platform, designed and deployed end-to-end.</p>
+      <code>Flutter</code> <code>REST API</code> <code>JWT</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia">Sylhet Pedia</a> 📱</h3>
+      <p>Regional knowledge app for Sylhet — offline-ready and user-friendly.</p>
+      <code>Kotlin</code> <code>SQLite</code> <code>Offline-first</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://pussho.com/">Pussho</a> 🟡</h3>
+      <p>A new mobile product in active development. Stay tuned for the release.</p>
+      <code>Mobile</code> <code>In Development</code>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+### ❖ Competitive Programming
+*600+ problems solved across all platforms.*
+
+<table width="100%">
+  <tr align="center">
+    <td width="33%">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="24px" alt="LeetCode"/><br>
+      <b>LeetCode</b><br>
+      Rating: 1,429
+    </td>
+    <td width="33%">
+      <img src="https://cdn.iconscout.com/icon/free/png-256/code-forces-3628695-3029920.png" width="24px" alt="Codeforces"/><br>
+      <b>Codeforces</b><br>
+      Rating: 1,153
+    </td>
+    <td width="33%">
+      <img src="https://cdn.iconscout.com/icon/free/png-256/codechef-3628694-3029919.png" width="24px" alt="CodeChef"/><br>
+      <b>CodeChef</b><br>
+      Rating: 1,259
+    </td>
+  </tr>
+</table>
+
+<br>
+
+### ❖ GitHub Analytics
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tahmidYoda10&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=ffffff&text_color=9f9f9f&icon_color=ffffff" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahmidYoda10&layout=compact&hide_border=true&theme=transparent&title_color=ffffff&text_color=9f9f9f" width="40%" />
+</div>
+
+<hr style="border: 1px solid #333;">
 
 <div align="center">
   <i>Building things that scale. Solving problems that matter.</i>
