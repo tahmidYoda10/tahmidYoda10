@@ -1,22 +1,26 @@
 <div align="center">
 
 # Tahmid Al Mamun
-**Founder @ Bridge Byte Tech** | *Leading University, Dept. of CSE*
+**Founder @ Bridge Byte Tech** &nbsp;·&nbsp; Leading University, Dept. of CSE
 
 <p align="center">
   Software engineer focused on backend systems, mobile apps, and end-to-end product development.<br>
   Building scalable, clean-architected products — from idea to deployment.
 </p>
 
+<br>
+
 <p align="center">
   <a href="https://bridgebytetech.com/">
-    <img src="https://img.shields.io/badge/Website-1A1A1A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/Bridge%20Byte%20Tech-0f0f0f?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/tahmid-al-mamun-042236215/">
-    <img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0f0f0f?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
   </a>
+  &nbsp;
   <a href="mailto:tahmid.mamun@bridgebytetech.com">
-    <img src="https://img.shields.io/badge/Email-1A1A1A?style=for-the-badge&logo=gmail&logoColor=D14836" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-0f0f0f?style=for-the-badge&logo=gmail&logoColor=EA4335" />
   </a>
 </p>
 
@@ -24,96 +28,143 @@
 
 <br>
 
-### ❖ Technical Arsenal
+---
+
+### Technical Stack
+
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,kotlin,flutter,android,postgres,mysql,redis,mongodb&perline=9&theme=dark" alt="Tech Stack" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=java,spring,kotlin,flutter,android,postgres,mysql,redis,mongodb&perline=9&theme=dark" />
 </div>
 
 <br>
 
-### ❖ Core Expertise
+---
+
+### Core Expertise
+
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <b>Backend Engineering</b><br>
-      Java, Spring Boot, REST APIs, System Design. Microservices & Clean Structured Monoliths.
+      <b>Backend Engineering</b><br><br>
+      Java · Spring Boot · Spring Security · REST APIs<br>
+      System Design · Microservices · Clean Architecture
     </td>
     <td width="50%" valign="top">
-      <b>Mobile Development</b><br>
-      Kotlin (Android), Flutter. Offline-First Design, User flows, and seamless experiences.
+      <b>Mobile Development</b><br><br>
+      Kotlin · Android · Flutter<br>
+      Offline-First Design · Performance Optimization
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Data & Caching</b><br><br>
+      PostgreSQL · MySQL · Redis · MongoDB<br>
+      Normalization · Indexing · Query Optimization
+    </td>
+    <td width="50%" valign="top">
+      <b>Engineering Practices</b><br><br>
+      Clean Code · Unit & Integration Testing<br>
+      Code Reviews · Technical Documentation
     </td>
   </tr>
 </table>
 
 <br>
 
-### ❖ Featured Projects
-*Dashboard overview of current and live systems.*
+---
+
+### Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://hadiarchive.com/">Hadi Archive</a> 🟢</h3>
-      <p>Comprehensive Islamic knowledge archive — structured, scalable, and built for accessibility.</p>
+      <h3><a href="https://hadiarchive.com/">Hadi Archive</a></h3>
+      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square&logoColor=white" />
+      <br><br>
+      In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi.
+      <br><br>
       <code>Spring Boot</code> <code>PostgreSQL</code> <code>Clean Architecture</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://resezy.com/">Resezy</a> 🟢</h3>
-      <p>Seamless user experience platform, designed and deployed end-to-end.</p>
+      <h3><a href="https://resezy.com/">Resezy</a></h3>
+      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square&logoColor=white" />
+      <br><br>
+      Seamless experience platform, designed and deployed end-to-end with a focus on usability.
+      <br><br>
       <code>Flutter</code> <code>REST API</code> <code>JWT</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia">Sylhet Pedia</a> 📱</h3>
-      <p>Regional knowledge app for Sylhet — offline-ready and user-friendly.</p>
-      <code>Kotlin</code> <code>SQLite</code> <code>Offline-first</code>
+      <h3><a href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia">Sylhet Pedia</a></h3>
+      <img src="https://img.shields.io/badge/Play%20Store-414141?style=flat-square&logo=google-play&logoColor=white" />
+      <br><br>
+      Regional knowledge app for Sylhet — offline-ready, fast, and user-friendly.
+      <br><br>
+      <code>Kotlin</code> <code>Android</code> <code>SQLite</code> <code>Offline-first</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://pussho.com/">Pussho</a> 🟡</h3>
-      <p>A new mobile product in active development. Stay tuned for the release.</p>
-      <code>Mobile</code> <code>In Development</code>
+      <h3><a href="https://pussho.com/">Pussho</a></h3>
+      <img src="https://img.shields.io/badge/In%20Development-b08000?style=flat-square&logoColor=white" />
+      <br><br>
+      A new mobile product currently in active development. Stay tuned for the release.
+      <br><br>
+      <code>Mobile</code> <code>In Progress</code>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.dfitcentre.com/">DF IT Centre</a></h3>
+      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square&logoColor=white" />
+      <br><br>
+      Clean, functional IT centre platform built for real users and real workflows.
+      <br><br>
+      <code>Web</code> <code>Client Work</code>
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
 <br>
 
-### ❖ Competitive Programming
-*600+ problems solved across all platforms.*
+---
+
+### Competitive Programming
+
+<p align="center"><i>600+ problems solved across all platforms</i></p>
 
 <table width="100%">
   <tr align="center">
     <td width="33%">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="24px" alt="LeetCode"/><br>
-      <b>LeetCode</b><br>
-      Rating: 1,429
+      <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br><br>
+      Rating &nbsp;<b>1,429</b>
     </td>
     <td width="33%">
-      <img src="https://cdn.iconscout.com/icon/free/png-256/code-forces-3628695-3029920.png" width="24px" alt="Codeforces"/><br>
-      <b>Codeforces</b><br>
-      Rating: 1,153
+      <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /><br><br>
+      Rating &nbsp;<b>1,153</b>
     </td>
     <td width="33%">
-      <img src="https://cdn.iconscout.com/icon/free/png-256/codechef-3628694-3029919.png" width="24px" alt="CodeChef"/><br>
-      <b>CodeChef</b><br>
-      Rating: 1,259
+      <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /><br><br>
+      Rating &nbsp;<b>1,259</b>
     </td>
   </tr>
 </table>
 
 <br>
 
-### ❖ GitHub Analytics
+---
+
+### GitHub Analytics
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tahmidYoda10&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=ffffff&text_color=9f9f9f&icon_color=ffffff" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahmidYoda10&layout=compact&hide_border=true&theme=transparent&title_color=ffffff&text_color=9f9f9f" width="40%" />
 </div>
 
-<hr style="border: 1px solid #333;">
+<br>
+
+---
 
 <div align="center">
-  <i>Building things that scale. Solving problems that matter.</i>
+  <sub>Building things that scale. Solving problems that matter.</sub>
 </div>
