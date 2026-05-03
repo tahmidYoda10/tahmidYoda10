@@ -1,550 +1,213 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tahmid Al Mamun</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<div align="center">
 
-  :root {
-    --bg: #080a0e;
-    --surface: #0e1117;
-    --border: rgba(255,255,255,0.07);
-    --border-hover: rgba(255,255,255,0.14);
-    --text: #e8eaf0;
-    --muted: #6b7280;
-    --accent-green: #22c55e;
-    --accent-amber: #f59e0b;
-    --glow-r: 120, 40, 30;
-    --glow-g: 20, 90, 50;
-  }
+<br>
 
-  html { scroll-behavior: smooth; }
+# Tahmid Al Mamun
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Mono', monospace;
-    min-height: 100vh;
-    overflow-x: hidden;
-    cursor: default;
-  }
+<sub>FOUNDER @ BRIDGE BYTE TECH &nbsp;·&nbsp; LEADING UNIVERSITY, DEPT. OF CSE</sub>
 
-  /* ── Noise grain overlay ── */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-    opacity: 0.35;
-    pointer-events: none;
-    z-index: 100;
-  }
+<br>
 
-  .page { max-width: 760px; margin: 0 auto; padding: 0 24px 80px; }
+<p>
+Software engineer focused on backend systems, mobile apps, and end-to-end product development.<br>
+Building scalable, clean-architected products — from idea to deployment.
+</p>
 
-  /* ── Hero ── */
-  .hero {
-    position: relative;
-    min-height: 340px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 80px 24px 60px;
-    overflow: hidden;
-    border-radius: 0 0 24px 24px;
-  }
+<br>
 
-  .hero-bg {
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse 60% 55% at 25% 60%, rgba(var(--glow-r), 0.28) 0%, transparent 65%),
-      radial-gradient(ellipse 50% 50% at 75% 40%, rgba(var(--glow-g), 0.22) 0%, transparent 65%),
-      radial-gradient(ellipse 80% 40% at 50% 90%, rgba(10,20,40,0.9) 0%, transparent 80%);
-    background-color: #0c0e12;
-    animation: bgShift 12s ease-in-out infinite alternate;
-  }
+<a href="https://bridgebytetech.com/">
+  <img src="https://img.shields.io/badge/Bridge%20Byte%20Tech-0d0d0d?style=for-the-badge&logo=googlechrome&logoColor=ffffff" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/tahmid-al-mamun-042236215/">
+  <img src="https://img.shields.io/badge/LinkedIn-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>
+&nbsp;
+<a href="mailto:tahmid.mamun@bridgebytetech.com">
+  <img src="https://img.shields.io/badge/Email-0d0d0d?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+</a>
 
-  @keyframes bgShift {
-    0%   { filter: hue-rotate(0deg) brightness(1); }
-    100% { filter: hue-rotate(15deg) brightness(1.08); }
-  }
+<br><br>
 
-  .hero-name {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(2.4rem, 6vw, 4rem);
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    color: #fff;
-    position: relative;
-    z-index: 1;
-    animation: fadeUp 0.9s cubic-bezier(0.22,1,0.36,1) both;
-    text-shadow: 0 0 60px rgba(255,255,255,0.08);
-  }
-
-  .hero-role {
-    font-size: 0.72rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    position: relative;
-    z-index: 1;
-    margin-top: 10px;
-    animation: fadeUp 0.9s 0.1s cubic-bezier(0.22,1,0.36,1) both;
-  }
-
-  .hero-role span { color: rgba(255,255,255,0.4); margin: 0 8px; }
-
-  .hero-desc {
-    font-size: 0.82rem;
-    color: rgba(255,255,255,0.45);
-    line-height: 1.8;
-    max-width: 440px;
-    position: relative;
-    z-index: 1;
-    margin-top: 20px;
-    animation: fadeUp 0.9s 0.2s cubic-bezier(0.22,1,0.36,1) both;
-  }
-
-  /* ── Contact buttons ── */
-  .contacts {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 28px;
-    position: relative;
-    z-index: 1;
-    animation: fadeUp 0.9s 0.3s cubic-bezier(0.22,1,0.36,1) both;
-  }
-
-  .btn {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 9px 18px;
-    border-radius: 100px;
-    background: rgba(255,255,255,0.06);
-    border: 0.5px solid rgba(255,255,255,0.12);
-    color: rgba(255,255,255,0.75);
-    font-family: 'DM Mono', monospace;
-    font-size: 0.73rem;
-    text-decoration: none;
-    transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
-    backdrop-filter: blur(8px);
-  }
-  .btn:hover {
-    background: rgba(255,255,255,0.11);
-    border-color: rgba(255,255,255,0.22);
-    color: #fff;
-    transform: translateY(-1px);
-  }
-  .btn svg { width: 14px; height: 14px; flex-shrink: 0; }
-
-  /* ── Section ── */
-  .section { margin-top: 40px; animation: fadeUp 0.7s 0.4s both; }
-
-  .section-label {
-    font-size: 0.62rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 16px;
-    padding-bottom: 10px;
-    border-bottom: 0.5px solid var(--border);
-  }
-
-  /* ── About card ── */
-  .about-card {
-    background: rgba(255,255,255,0.03);
-    border: 0.5px solid var(--border);
-    border-radius: 16px;
-    padding: 28px 32px;
-    position: relative;
-    overflow: hidden;
-  }
-  .about-card::before {
-    content: '';
-    position: absolute;
-    top: -40px; left: -40px;
-    width: 200px; height: 200px;
-    background: radial-gradient(circle, rgba(var(--glow-r),0.15) 0%, transparent 70%);
-    pointer-events: none;
-    animation: orb 8s ease-in-out infinite alternate;
-  }
-  @keyframes orb {
-    0% { transform: translate(0,0); }
-    100% { transform: translate(40px, 30px); }
-  }
-  .about-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-    line-height: 1.3;
-    margin-bottom: 12px;
-  }
-  .about-sub {
-    font-size: 0.75rem;
-    color: rgba(255,255,255,0.3);
-    letter-spacing: 0.05em;
-  }
-  .open-tag {
-    display: inline-block;
-    margin-top: 16px;
-    font-size: 0.72rem;
-    color: var(--accent-green);
-    border: 0.5px solid rgba(34,197,94,0.3);
-    border-radius: 100px;
-    padding: 4px 12px;
-    background: rgba(34,197,94,0.06);
-  }
-  .open-tag::before { content: '> '; opacity: 0.5; }
-
-  /* ── Stack pills ── */
-  .pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .pill {
-    font-size: 0.72rem;
-    padding: 6px 14px;
-    border-radius: 100px;
-    border: 0.5px solid var(--border);
-    background: rgba(255,255,255,0.03);
-    color: rgba(255,255,255,0.6);
-    transition: border-color 0.2s, color 0.2s, background 0.2s;
-    cursor: default;
-  }
-  .pill:hover {
-    border-color: rgba(255,255,255,0.2);
-    color: rgba(255,255,255,0.9);
-    background: rgba(255,255,255,0.06);
-  }
-
-  /* ── Projects ── */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-  @media (max-width: 560px) { .projects-grid { grid-template-columns: 1fr; } }
-
-  .proj-card {
-    background: rgba(255,255,255,0.025);
-    border: 0.5px solid var(--border);
-    border-radius: 14px;
-    padding: 20px 22px;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    transition: border-color 0.2s, background 0.2s, transform 0.2s;
-    position: relative;
-    overflow: hidden;
-  }
-  .proj-card::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(255,255,255,0.04) 0%, transparent 60%);
-    opacity: 0;
-    transition: opacity 0.3s;
-    pointer-events: none;
-  }
-  .proj-card:hover::after { opacity: 1; }
-  .proj-card:hover {
-    border-color: var(--border-hover);
-    background: rgba(255,255,255,0.04);
-    transform: translateY(-2px);
-  }
-  .proj-card.featured { grid-column: 1 / -1; }
-
-  .proj-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
-  .proj-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #fff;
-  }
-  .proj-badge {
-    font-size: 0.62rem;
-    padding: 3px 9px;
-    border-radius: 100px;
-    font-family: 'DM Mono', monospace;
-  }
-  .badge-live { background: rgba(34,197,94,0.12); color: var(--accent-green); border: 0.5px solid rgba(34,197,94,0.25); }
-  .badge-dev  { background: rgba(245,158,11,0.1);  color: var(--accent-amber);  border: 0.5px solid rgba(245,158,11,0.25); }
-  .badge-store{ background: rgba(255,255,255,0.06); color: var(--muted); border: 0.5px solid var(--border); }
-
-  .proj-desc {
-    font-size: 0.76rem;
-    color: var(--muted);
-    line-height: 1.65;
-    margin-bottom: 12px;
-  }
-  .proj-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-  .proj-tag {
-    font-size: 0.63rem;
-    padding: 3px 9px;
-    border-radius: 6px;
-    background: rgba(255,255,255,0.04);
-    color: rgba(255,255,255,0.35);
-    border: 0.5px solid var(--border);
-  }
-  .proj-url {
-    margin-top: 14px;
-    font-size: 0.68rem;
-    color: rgba(255,255,255,0.2);
-    letter-spacing: 0.03em;
-  }
-
-  /* ── CP ── */
-  .cp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-  .cp-card {
-    background: rgba(255,255,255,0.025);
-    border: 0.5px solid var(--border);
-    border-radius: 14px;
-    padding: 20px;
-    text-align: center;
-    transition: border-color 0.2s;
-  }
-  .cp-card:hover { border-color: var(--border-hover); }
-  .cp-platform { font-size: 0.63rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
-  .cp-num {
-    font-family: 'Syne', sans-serif;
-    font-size: 2rem;
-    font-weight: 800;
-    color: #fff;
-    line-height: 1;
-  }
-  .cp-sub { font-size: 0.63rem; color: var(--muted); margin-top: 4px; }
-  .cp-total {
-    margin-top: 10px;
-    background: rgba(255,255,255,0.03);
-    border: 0.5px solid var(--border);
-    border-radius: 12px;
-    padding: 14px 20px;
-    text-align: center;
-    font-size: 0.75rem;
-    color: var(--muted);
-  }
-  .cp-total strong { font-family: 'Syne', sans-serif; font-size: 1.1rem; color: #fff; margin-right: 6px; }
-
-  /* ── Stats ── */
-  .stats-note {
-    font-size: 0.7rem;
-    color: var(--muted);
-    text-align: center;
-    margin-bottom: 12px;
-    font-style: italic;
-  }
-
-  /* ── Footer ── */
-  .footer {
-    margin-top: 60px;
-    text-align: center;
-    font-size: 0.68rem;
-    color: rgba(255,255,255,0.15);
-    letter-spacing: 0.08em;
-  }
-
-  /* ── Animations ── */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(18px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .section:nth-child(1) { animation-delay: 0.35s; }
-  .section:nth-child(2) { animation-delay: 0.45s; }
-  .section:nth-child(3) { animation-delay: 0.55s; }
-  .section:nth-child(4) { animation-delay: 0.65s; }
-  .section:nth-child(5) { animation-delay: 0.75s; }
-</style>
-</head>
-<body>
-
-<!-- ── HERO ── -->
-<div class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-name">Tahmid Al Mamun</div>
-  <div class="hero-role">Founder @ Bridge Byte Tech <span>·</span> Leading University, CSE</div>
-  <p class="hero-desc">Software engineer focused on backend systems, mobile apps, and end-to-end product development. Building scalable, clean-architected products — from idea to deployment.</p>
-  <div class="contacts">
-    <a class="btn" href="https://bridgebytetech.com/" target="_blank">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-      Bridge Byte Tech
-    </a>
-    <a class="btn" href="https://www.linkedin.com/in/tahmid-al-mamun-042236215/" target="_blank">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
-      LinkedIn
-    </a>
-    <a class="btn" href="mailto:tahmid.mamun@bridgebytetech.com">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-      Email
-    </a>
-  </div>
-</div>
-
-<div class="page">
-
-  <!-- ── ABOUT ── -->
-  <div class="section">
-    <div class="section-label">About</div>
-    <div class="about-card">
-      <div class="about-title">Building things<br>that scale.</div>
-      <div class="about-sub">Backend · Mobile · Systems · Product</div>
-      <div class="open-tag">open to collaborations</div>
-    </div>
-  </div>
-
-  <!-- ── STACK ── -->
-  <div class="section">
-    <div class="section-label">Stack</div>
-    <div class="pills">
-      <span class="pill">Java</span>
-      <span class="pill">Spring Boot</span>
-      <span class="pill">Spring Security</span>
-      <span class="pill">REST API</span>
-      <span class="pill">Kotlin</span>
-      <span class="pill">Android</span>
-      <span class="pill">Flutter</span>
-      <span class="pill">PostgreSQL</span>
-      <span class="pill">MySQL</span>
-      <span class="pill">Redis</span>
-      <span class="pill">MongoDB</span>
-      <span class="pill">Microservices</span>
-      <span class="pill">Clean Architecture</span>
-      <span class="pill">System Design</span>
-    </div>
-  </div>
-
-  <!-- ── PROJECTS ── -->
-  <div class="section">
-    <div class="section-label">Projects</div>
-    <div class="projects-grid">
-
-      <a class="proj-card featured" href="https://hadiarchive.com/" target="_blank">
-        <div class="proj-header">
-          <div class="proj-name">Hadi Archive</div>
-          <span class="proj-badge badge-live">Live</span>
-        </div>
-        <div class="proj-desc">In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi. A comprehensive Islamic knowledge archive — structured, scalable, and built for long-term accessibility.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">Spring Boot</span>
-          <span class="proj-tag">PostgreSQL</span>
-          <span class="proj-tag">Clean Architecture</span>
-        </div>
-        <div class="proj-url">hadiarchive.com ↗</div>
-      </a>
-
-      <a class="proj-card" href="https://resezy.com/" target="_blank">
-        <div class="proj-header">
-          <div class="proj-name">Resezy</div>
-          <span class="proj-badge badge-live">Live</span>
-        </div>
-        <div class="proj-desc">Seamless experience platform, designed and deployed end-to-end with a focus on usability.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">Flutter</span>
-          <span class="proj-tag">REST API</span>
-          <span class="proj-tag">JWT</span>
-        </div>
-        <div class="proj-url">resezy.com ↗</div>
-      </a>
-
-      <a class="proj-card" href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia" target="_blank">
-        <div class="proj-header">
-          <div class="proj-name">Sylhet Pedia</div>
-          <span class="proj-badge badge-store">Play Store</span>
-        </div>
-        <div class="proj-desc">Regional knowledge app for Sylhet — offline-ready, fast, and user-friendly.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">Kotlin</span>
-          <span class="proj-tag">Android</span>
-          <span class="proj-tag">Offline-first</span>
-        </div>
-        <div class="proj-url">Google Play ↗</div>
-      </a>
-
-      <a class="proj-card" href="https://pussho.com/" target="_blank">
-        <div class="proj-header">
-          <div class="proj-name">Pussho</div>
-          <span class="proj-badge badge-dev">In Dev</span>
-        </div>
-        <div class="proj-desc">A new mobile product currently in active development. Stay tuned for the release.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">Mobile</span>
-          <span class="proj-tag">In Progress</span>
-        </div>
-        <div class="proj-url">pussho.com ↗</div>
-      </a>
-
-      <a class="proj-card" href="https://www.dfitcentre.com/" target="_blank">
-        <div class="proj-header">
-          <div class="proj-name">DF IT Centre</div>
-          <span class="proj-badge badge-live">Live</span>
-        </div>
-        <div class="proj-desc">Clean, functional IT centre platform built for real users and real workflows.</div>
-        <div class="proj-tags">
-          <span class="proj-tag">Web</span>
-          <span class="proj-tag">Client Work</span>
-        </div>
-        <div class="proj-url">dfitcentre.com ↗</div>
-      </a>
-
-    </div>
-  </div>
-
-  <!-- ── COMPETITIVE PROGRAMMING ── -->
-  <div class="section">
-    <div class="section-label">Competitive Programming</div>
-    <div class="cp-grid">
-      <div class="cp-card">
-        <div class="cp-platform">LeetCode</div>
-        <div class="cp-num">1,429</div>
-        <div class="cp-sub">Rating</div>
-      </div>
-      <div class="cp-card">
-        <div class="cp-platform">Codeforces</div>
-        <div class="cp-num">1,153</div>
-        <div class="cp-sub">Rating</div>
-      </div>
-      <div class="cp-card">
-        <div class="cp-platform">CodeChef</div>
-        <div class="cp-num">1,259</div>
-        <div class="cp-sub">Rating</div>
-      </div>
-    </div>
-    <div class="cp-total"><strong>600+</strong> problems solved across all platforms</div>
-  </div>
-
-  <!-- ── FOOTER ── -->
-  <div class="footer">Building things that scale. Solving problems that matter.</div>
+---
 
 </div>
 
-<script>
-  // Mouse-tracking glow on project cards
-  document.querySelectorAll('.proj-card').forEach(card => {
-    card.addEventListener('mousemove', e => {
-      const r = card.getBoundingClientRect();
-      card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
-      card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
-    });
-  });
+### &nbsp; Stack
 
-  // Intersection observer for staggered section reveals
-  const sections = document.querySelectorAll('.section');
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = 1; io.unobserve(e.target); } });
-  }, { threshold: 0.1 });
-  sections.forEach(s => { s.style.opacity = 0; io.observe(s); });
-</script>
-</body>
-</html>
+<div align="center"><br>
+
+<img src="https://skillicons.dev/icons?i=java,spring,kotlin,flutter,android,postgres,mysql,redis,mongodb&perline=9&theme=dark" />
+
+<br><br>
+
+<table>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36"/><br><sub>Java</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=spring&theme=dark" width="36"/><br><sub>Spring Boot</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=kotlin&theme=dark" width="36"/><br><sub>Kotlin</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="36"/><br><sub>Flutter</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=android&theme=dark" width="36"/><br><sub>Android</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="36"/><br><sub>PostgreSQL</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="36"/><br><sub>MySQL</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=redis&theme=dark" width="36"/><br><sub>Redis</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="36"/><br><sub>MongoDB</sub></td>
+</tr>
+</table>
+
+<br>
+
+</div>
+
+---
+
+### &nbsp; Expertise
+
+<br>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Backend%20Engineering-0d0d0d?style=flat-square&logoColor=white" /><br><br>
+      Java &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; Spring Security &nbsp;·&nbsp; REST APIs<br>
+      System Design &nbsp;·&nbsp; Microservices &nbsp;·&nbsp; Clean Architecture
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Mobile%20Development-0d0d0d?style=flat-square&logoColor=white" /><br><br>
+      Kotlin &nbsp;·&nbsp; Android &nbsp;·&nbsp; Flutter<br>
+      Offline-First Design &nbsp;·&nbsp; Performance Optimization
+    </td>
+  </tr>
+  <tr><td colspan="2"><br></td></tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Data%20%26%20Caching-0d0d0d?style=flat-square&logoColor=white" /><br><br>
+      PostgreSQL &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; Redis &nbsp;·&nbsp; MongoDB<br>
+      Normalization &nbsp;·&nbsp; Indexing &nbsp;·&nbsp; Query Optimization
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/Engineering%20Practices-0d0d0d?style=flat-square&logoColor=white" /><br><br>
+      Clean Code &nbsp;·&nbsp; Unit & Integration Testing<br>
+      Code Reviews &nbsp;·&nbsp; Technical Documentation
+    </td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+### &nbsp; Projects
+
+<br>
+
+<table width="100%">
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://hadiarchive.com/">Hadi Archive</a></h3>
+      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square" />
+      <br><br>
+      In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi.<br>
+      A comprehensive Islamic knowledge archive — structured, scalable, and built for long-term accessibility.
+      <br><br>
+      <img src="https://img.shields.io/badge/Spring%20Boot-0d0d0d?style=flat-square&logo=springboot&logoColor=6DB33F" />
+      <img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=flat-square&logo=postgresql&logoColor=4169E1" />
+      <img src="https://img.shields.io/badge/Clean%20Architecture-0d0d0d?style=flat-square" />
+    </td>
+  </tr>
+  <tr><td colspan="2"><br></td></tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://resezy.com/">Resezy</a></h3>
+      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square" />
+      <br><br>
+      Seamless experience platform, designed and deployed end-to-end with a focus on usability.
+      <br><br>
+      <img src="https://img.shields.io/badge/Flutter-0d0d0d?style=flat-square&logo=flutter&logoColor=54C5F8" />
+      <img src="https://img.shields.io/badge/REST%20API-0d0d0d?style=flat-square" />
+      <img src="https://img.shields.io/badge/JWT-0d0d0d?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia">Sylhet Pedia</a></h3>
+      <img src="https://img.shields.io/badge/Play%20Store-414141?style=flat-square&logo=google-play&logoColor=white" />
+      <br><br>
+      Regional knowledge app for Sylhet — offline-ready, fast, and user-friendly.
+      <br><br>
+      <img src="https://img.shields.io/badge/Kotlin-0d0d0d?style=flat-square&logo=kotlin&logoColor=7F52FF" />
+      <img src="https://img.shields.io/badge/Android-0d0d0d?style=flat-square&logo=android&logoColor=3DDC84" />
+      <img src="https://img.shields.io/badge/Offline--first-0d0d0d?style=flat-square" />
+    </td>
+  </tr>
+  <tr><td colspan="2"><br></td></tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://pussho.com/">Pussho</a></h3>
+      <img src="https://img.shields.io/badge/In%20Development-92610a?style=flat-square" />
+      <br><br>
+      A new mobile product currently in active development. Stay tuned for the release.
+      <br><br>
+      <img src="https://img.shields.io/badge/Mobile-0d0d0d?style=flat-square" />
+      <img src="https://img.shields.io/badge/In%20Progress-0d0d0d?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.dfitcentre.com/">DF IT Centre</a></h3>
+      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square" />
+      <br><br>
+      Clean, functional IT centre platform built for real users and real workflows.
+      <br><br>
+      <img src="https://img.shields.io/badge/Web-0d0d0d?style=flat-square" />
+      <img src="https://img.shields.io/badge/Client%20Work-0d0d0d?style=flat-square" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+### &nbsp; Competitive Programming
+
+<br>
+
+<div align="center">
+
+<sub>600+ problems solved across all platforms</sub>
+
+<br><br>
+
+<a href="https://leetcode.com/">
+  <img src="https://img.shields.io/badge/LeetCode%20%E2%80%94%201%2C429-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
+&nbsp;
+<a href="https://codeforces.com/">
+  <img src="https://img.shields.io/badge/Codeforces%20%E2%80%94%201%2C153-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://www.codechef.com/">
+  <img src="https://img.shields.io/badge/CodeChef%20%E2%80%94%201%2C259-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+</a>
+
+</div>
+
+<br>
+
+---
+
+### &nbsp; GitHub Analytics
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tahmidYoda10&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=ffffff&text_color=6b7280&icon_color=ffffff" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahmidYoda10&layout=compact&hide_border=true&theme=transparent&title_color=ffffff&text_color=6b7280" width="40%" />
+</div>
+
+<br>
+
+---
+
+<div align="center">
+  <sub>Building things that scale. Solving problems that matter.</sub>
+</div>
+
+<br>
