@@ -1,26 +1,23 @@
 <div align="center">
 
-# Tahmid Al Mamun
-**Founder @ Bridge Byte Tech** &nbsp;·&nbsp; Leading University, Dept. of CSE
+<a href="https://github.com/tahmidYoda10">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3DDC84&center=true&vCenter=true&width=600&lines=Hi+Everyone,+I'm+Tahmid;Welcome+to+my+GitHub+Universe!;Founder+%40+Bridge+Byte+Tech;Building+Scalable+Backend+Systems;Crafting+Offline-First+Mobile+Apps" alt="Typing SVG" />
+</a>
 
 <p align="center">
   Software engineer focused on backend systems, mobile apps, and end-to-end product development.<br>
   Building scalable, clean-architected products — from idea to deployment.
 </p>
 
-<br>
-
 <p align="center">
   <a href="https://bridgebytetech.com/">
-    <img src="https://img.shields.io/badge/Bridge%20Byte%20Tech-0f0f0f?style=for-the-badge&logo=googlechrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Bridge_Byte_Tech-0D1117?style=for-the-badge&logo=googlechrome&logoColor=3DDC84" alt="Website" />
   </a>
-  &nbsp;
   <a href="https://www.linkedin.com/in/tahmid-al-mamun-042236215/">
-    <img src="https://img.shields.io/badge/LinkedIn-0f0f0f?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" />
   </a>
-  &nbsp;
   <a href="mailto:tahmid.mamun@bridgebytetech.com">
-    <img src="https://img.shields.io/badge/Email-0f0f0f?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+    <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
   </a>
 </p>
 
@@ -30,41 +27,49 @@
 
 ---
 
-### Technical Stack
+<br>
 
+### ⚡ Tech Arsenal
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,kotlin,flutter,android,postgres,mysql,redis,mongodb&perline=9&theme=dark" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,kotlin,flutter,android,postgres,mysql,redis,mongodb&perline=9&theme=dark" alt="Tech Stack" />
+  </a>
 </div>
 
 <br>
 
----
-
-### Core Expertise
+### 🧩 Core Expertise
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <b>Backend Engineering</b><br><br>
-      Java · Spring Boot · Spring Security · REST APIs<br>
-      System Design · Microservices · Clean Architecture
+      <b>💻 Backend Engineering</b><br><br>
+      <img src="https://img.shields.io/badge/-Java-2b2b2b?style=flat-square&logo=openjdk&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-Spring_Boot-2b2b2b?style=flat-square&logo=spring-boot&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-REST_APIs-2b2b2b?style=flat-square&logo=json&logoColor=white" /><br><br>
+      <i>System Design · Microservices · Clean Architecture</i>
     </td>
     <td width="50%" valign="top">
-      <b>Mobile Development</b><br><br>
-      Kotlin · Android · Flutter<br>
-      Offline-First Design · Performance Optimization
+      <b>📱 Mobile Development</b><br><br>
+      <img src="https://img.shields.io/badge/-Kotlin-2b2b2b?style=flat-square&logo=kotlin&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-Android-2b2b2b?style=flat-square&logo=android&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-Flutter-2b2b2b?style=flat-square&logo=flutter&logoColor=white" /><br><br>
+      <i>Offline-First Design · Performance Optimization</i>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b>Data & Caching</b><br><br>
-      PostgreSQL · MySQL · Redis · MongoDB<br>
-      Normalization · Indexing · Query Optimization
+      <b>🗄️ Data & Caching</b><br><br>
+      <img src="https://img.shields.io/badge/-PostgreSQL-2b2b2b?style=flat-square&logo=postgresql&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-Redis-2b2b2b?style=flat-square&logo=redis&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-MongoDB-2b2b2b?style=flat-square&logo=mongodb&logoColor=white" /><br><br>
+      <i>Normalization · Indexing · Query Optimization</i>
     </td>
     <td width="50%" valign="top">
-      <b>Engineering Practices</b><br><br>
-      Clean Code · Unit & Integration Testing<br>
-      Code Reviews · Technical Documentation
+      <b>⚙️ Engineering Practices</b><br><br>
+      <img src="https://img.shields.io/badge/-Clean_Code-2b2b2b?style=flat-square&logo=sonarqube&logoColor=white" /> 
+      <img src="https://img.shields.io/badge/-Testing-2b2b2b?style=flat-square&logo=jest&logoColor=white" /><br><br>
+      <i>Unit & Integration Testing · Code Reviews · Docs</i>
     </td>
   </tr>
 </table>
@@ -73,79 +78,41 @@
 
 ---
 
-### Projects
+<br>
+
+### 🚀 Projects Dashboard
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://hadiarchive.com/">Hadi Archive</a></h3>
-      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Status-Live-3DDC84?style=flat-square&logoColor=white" />
       <br><br>
-      In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi.
-      <br><br>
+      <p>In the memory of great revolutionary Shaheed Sharif Osman Gani Bin Hadi. Structured & scalable.</p>
       <code>Spring Boot</code> <code>PostgreSQL</code> <code>Clean Architecture</code>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://resezy.com/">Resezy</a></h3>
-      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Status-Live-3DDC84?style=flat-square&logoColor=white" />
       <br><br>
-      Seamless experience platform, designed and deployed end-to-end with a focus on usability.
-      <br><br>
+      <p>Seamless experience platform, designed and deployed end-to-end with a focus on usability.</p>
       <code>Flutter</code> <code>REST API</code> <code>JWT</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://play.google.com/store/apps/details?id=com.abir.sylhetpedia">Sylhet Pedia</a></h3>
-      <img src="https://img.shields.io/badge/Play%20Store-414141?style=flat-square&logo=google-play&logoColor=white" />
+      <img src="https://img.shields.io/badge/Status-Play_Store-414141?style=flat-square&logo=google-play&logoColor=white" />
       <br><br>
-      Regional knowledge app for Sylhet — offline-ready, fast, and user-friendly.
-      <br><br>
-      <code>Kotlin</code> <code>Android</code> <code>SQLite</code> <code>Offline-first</code>
+      <p>Regional knowledge app for Sylhet — offline-ready, fast, and highly user-friendly.</p>
+      <code>Kotlin</code> <code>Android</code> <code>SQLite</code>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://pussho.com/">Pussho</a></h3>
-      <img src="https://img.shields.io/badge/In%20Development-b08000?style=flat-square&logoColor=white" />
+      <img src="https://img.shields.io/badge/Status-In_Development-F5A623?style=flat-square&logoColor=white" />
       <br><br>
-      A new mobile product currently in active development. Stay tuned for the release.
-      <br><br>
-      <code>Mobile</code> <code>In Progress</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://www.dfitcentre.com/">DF IT Centre</a></h3>
-      <img src="https://img.shields.io/badge/Live-1a7f37?style=flat-square&logoColor=white" />
-      <br><br>
-      Clean, functional IT centre platform built for real users and real workflows.
-      <br><br>
-      <code>Web</code> <code>Client Work</code>
-    </td>
-    <td width="50%" valign="top"></td>
-  </tr>
-</table>
-
-<br>
-
----
-
-### Competitive Programming
-
-<p align="center"><i>600+ problems solved across all platforms</i></p>
-
-<table width="100%">
-  <tr align="center">
-    <td width="33%">
-      <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br><br>
-      Rating &nbsp;<b>1,429</b>
-    </td>
-    <td width="33%">
-      <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /><br><br>
-      Rating &nbsp;<b>1,153</b>
-    </td>
-    <td width="33%">
-      <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /><br><br>
-      Rating &nbsp;<b>1,259</b>
+      <p>A new mobile product currently in active development. Stay tuned for the official release.</p>
+      <code>Mobile App</code> <code>In Progress</code>
     </td>
   </tr>
 </table>
@@ -154,16 +121,37 @@
 
 ---
 
-### GitHub Analytics
+<br>
 
+### 🏆 Competitive Programming Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tahmidYoda10&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=ffffff&text_color=9f9f9f&icon_color=ffffff" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahmidYoda10&layout=compact&hide_border=true&theme=transparent&title_color=ffffff&text_color=9f9f9f" width="40%" />
+  <p><i>600+ problems solved across all platforms</i></p>
+  <br>
+  <img src="https://img.shields.io/badge/LeetCode_Rating-1429-1A1A1A?style=for-the-badge&logo=leetcode&logoColor=FFA116" /> &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Codeforces_Rating-1153-1A1A1A?style=for-the-badge&logo=codeforces&logoColor=1F8ACB" /> &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/CodeChef_Rating-1259-1A1A1A?style=for-the-badge&logo=codechef&logoColor=5B4638" />
 </div>
 
 <br>
 
 ---
+
+<br>
+
+### 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tahmidYoda10&bg_color=0D1117&color=3DDC84&line=3DDC84&point=FFFFFF&hide_border=true" width="95%" alt="Activity Graph" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tahmidYoda10&show_icons=true&bg_color=0D1117&hide_border=true&count_private=true&title_color=3DDC84&text_color=9f9f9f&icon_color=3DDC84" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tahmidYoda10&layout=donut&bg_color=0D1117&hide_border=true&title_color=3DDC84&text_color=9f9f9f" width="40%" />
+</div>
+
+<br>
 
 <div align="center">
   <sub>Building things that scale. Solving problems that matter.</sub>
