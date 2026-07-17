@@ -119,7 +119,7 @@
 ### 🌐 3D Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tahmidYoda10/tahmidYoda10/output/profile-3d-contrib/profile-night-green.svg" width="95%" alt="3D Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/tahmidYoda10/tahmidYoda10/main/profile-3d-contrib/profile-night-green.svg" width="95%" alt="3D Contribution Graph" />
 </div>
 
 <br>
