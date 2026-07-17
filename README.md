@@ -112,6 +112,18 @@
 
 <br>
 
+---
+
+<br>
+
+### 🌐 3D Contribution Graph
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tahmidYoda10/tahmidYoda10/output/profile-3d-contrib/profile-night-green.svg" width="95%" alt="3D Contribution Graph" />
+</div>
+
+<br>
+
 <div align="center">
   <sub>Building things that scale. Solving problems that matter.</sub>
 </div>
